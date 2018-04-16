@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/wh_mm"
+    android:orientation="vertical">
+
+        <com.test.view.MyHorizontalScrollView
+            android:id="@+id/scrollView"
+            style="@style/wh_mw"
+            android:background="@android:color/transparent"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/ll_scroll_content"
+                style="@style/wh_ww"
+                android:background="#DDF6FF"
+                android:orientation="horizontal" />
+
+        </com.test.view.MyHorizontalScrollView>
+
+        <ImageView
+            style="@style/wh_mw"
+            android:layout_below="@+id/scrollView"
+            android:background="@mipmap/alpha_down"
+            android:scaleType="fitXY" />
+
+</RelativeLayout>
