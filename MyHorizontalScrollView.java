@@ -1,5 +1,3 @@
-package com.ibgoing.view;
-
 import android.content.Context;
 import android.os.Handler;
 import android.os.Message;
@@ -15,7 +13,7 @@ import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.ibgoing.adapter.HorizontalScrollViewAdapter;
+import com.test.adapter.HorizontalScrollViewAdapter;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
