@@ -1,4 +1,4 @@
-package com.ibgoing.adapter;
+package com.test.adapter;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -22,7 +22,7 @@ public class HorizontalScrollViewAdapter {
     private LayoutInflater mInflater;
     private List<DynamicData> mPrizeList;
 
-    public HorizontalScrollViewAdapter(Context context, List<DynamicData> prizeList) {
+    public HorizontalScrollViewAdapter(Context context, List<Data> prizeList) {
         this.mContext = context;
         mInflater = LayoutInflater.from(context);
         this.mPrizeList = prizeList;
